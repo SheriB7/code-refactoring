@@ -6,8 +6,29 @@
 
 body {
     background-color: #d9dcd6;
+    position: relative;
 }
 
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,16 +62,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
+.main-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,15 +71,6 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
     width: 75%;
@@ -187,7 +190,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+ /* footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +198,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
